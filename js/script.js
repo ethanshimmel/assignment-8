@@ -7,7 +7,6 @@ buttons.forEach(function (button) {
     button.addEventListener("click", function () {
         let question = button.dataset.question;
         let answer = button.dataset.answer;
-        // Previous highlight button code
  
         let sameQuestionButtons = document.querySelectorAll(
             `.answer-btn[data-question="${question}"]`
