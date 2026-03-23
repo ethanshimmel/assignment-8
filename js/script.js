@@ -21,7 +21,6 @@ buttons.forEach(function (button) {
 
         // Store answer
         userAnswers[question] = answer;
-        console.log(userAnswers);
 
     });
 });
