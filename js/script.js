@@ -36,6 +36,7 @@ let resultButton = document.getElementById("show-result");
 
 let totalScore = 0;
 
+// Adds up results
 resultButton.addEventListener("click", function () {
     for (let answer in userAnswers) {
         if (userAnswers[answer] === "A") {
@@ -49,7 +50,7 @@ resultButton.addEventListener("click", function () {
         }
     }
 
-
+// Outputs to user the results
     let container = document.getElementById("result-container");
     container.style.display = "block"
     let output = document.getElementById("result-text");
